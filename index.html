@@ -1,78 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Wedding Invitation</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#">John & Jane's Wedding</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#events">Events</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#gallery">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#rsvp">RSVP</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <header>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">John & Jane's Wedding</h1>
-        <p class="lead">You are cordially invited to celebrate our special day with us.</p>
-      </div>
-    </div>
-  </header>
-  <main>
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>About Us</h2>
-            <p>John and Jane met in college and have been inseparable ever since. They are excited to start their new life together and would like to share their joy with their friends and family.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="images/about.jpg" alt="John and Jane">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="events">
-      <div class="container">
+<html>
+  <head>
+    <title>John & Jane's Wedding Invitation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>John & Jane's Wedding</h1>
+      <h2>You are cordially invited to celebrate our special day with us</h2>
+      <nav>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>John and Jane met in college and have been inseparable ever since. They are excited to start their new life together and would like to share their joy with their friends and family.</p>
+      </section>
+
+      <section id="events">
         <h2>Events</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Rehearsal Dinner</h3>
-            <p class="date">Friday, June 17, 2023</p>
-            <p>Location: TBD</p>
-          </div>
-          <div class="col-md-6">
-            <h3>Wedding Ceremony & Reception</h3>
-            <p class="date">Saturday, June 18, 2023</p>
-            <p>Location: TBD</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="gallery">
-      <div class="container">
+        <ul>
+          <li><span class="date">Friday, June 17, 2023</span> <span class="event">Rehearsal Dinner</span></li>
+          <li><span class="date">Saturday, June 18, 2023</span> <span class="event">Wedding Ceremony & Reception</span></li>
+        </ul>
+      </section>
+
+      <section id="rsvp">
+        <h2>RSVP</h2>
+        <form action="submit-rsvp.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="guests">Number of Guests:</label>
+          <select id="guests" name="guests" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+
+      <section id="gallery">
         <h2>Gallery</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="images/gallery1.jpg" alt="Gallery Image 1">
-          </div
+        <div class="gallery-container">
+          <img src="images/gallery1.jpg" alt="Gallery Image 1">
+          <img src="images/gallery2.jpg" alt="Gallery Image 2">
+          <img src="images/gallery3.jpg" alt="Gallery Image 3">
+          <img src="images/gallery4.jpg" alt="Gallery Image 4">
+          <img src="images/gallery5.jpg" alt="Gallery Image 5">
+          <img src="images/gallery6.jpg" alt="Gallery Image 6">
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 John & Jane's Wedding</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
