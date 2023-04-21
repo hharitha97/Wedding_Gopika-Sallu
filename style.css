@@ -32,14 +32,14 @@ html {
     color: #fff;
   }
   #countdown {
-    max-width: 350px;
+    max-width: 400px;
     max-height:fit-content;
   }
   #countdown ul {
     margin: 5% 0 0 0;
     padding: 0;
     display: flex;
-    gap: 4%;
+    gap: 5%;
   }
   #countdown ul li {
     flex: 25%;
