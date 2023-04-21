@@ -13,7 +13,7 @@ html {
     align-items: center;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     color:#000000;
     text-shadow: 1px 1px 5px #92de50;
     font-family:Brush Script MT, Brush Script Std, cursive;
@@ -32,7 +32,7 @@ html {
     color: #fff;
   }
   #countdown {
-    max-width: 500px;
+    max-width: 400px;
     max-height:fit-content;
   }
   #countdown ul {
