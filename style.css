@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    background: url("https://th.bing.com/th/id/R.518910c62e74a98df994865f002f3d00?rik=NW8otPJels091g&riu=http%3a%2f%2f2.bp.blogspot.com%2f-cKCEFbrp3jE%2fUCoTxSJX6-I%2fAAAAAAAADsw%2fkARjgBJQmBw%2fs1600%2fflower_03.jpg&ehk=z%2fD37C4Oz6%2fVkpiysBUGqA0RtffARZ4SXC3%2fC4mCPtY%3d&risl=&pid=ImgRaw&r=0") no-repeat center center fixed;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 4rem;
+    text-shadow: 1px 1px 5px #000;  
+    margin: 0;
+  }
+  p {
+    font-size: 1.2rem;  
+    text-shadow: 1px 1px 2px #000;
+  }
+  a {
+    color: #fff;
+  }
+  #countdown {
+    max-width: 600px;
+  }
+  #countdown ul {
+    margin: 5% 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 5%;
+  }
+  #countdown ul li {
+    flex: 25%;
+    padding: 5%;
+    margin: 0;
+    list-style: none;
+    background: #001f2f;
+    border-radius: 5px;
+  }
+  #countdown ul li span {
+    display: block;
+    font-size: 3rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #001f2f;
+    color: #8ebf42;
+    text-shadow: 1px 1px 2px #c0df6d;
+    font-size:x-small;
+  }
