@@ -60,8 +60,6 @@ html {
 }
 
 #heart { 
-  max-width: 400px;
-  max-height:fit-content;
   animation:pulse .5s infinite;
 }
 
