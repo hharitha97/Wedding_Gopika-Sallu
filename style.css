@@ -14,8 +14,8 @@ html {
   }
   h1 {
     font-size: 4rem;
-    color:#8ebf42;
-    text-shadow: 8px 2px 2px #000000;
+    color:#000000;
+    text-shadow: 1px 1px 5px #92de50;
     font-family:Brush Script MT, Brush Script Std, cursive;
     margin: 0;
   }
