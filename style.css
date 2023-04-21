@@ -13,19 +13,27 @@ html {
     align-items: center;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+    color:#8ebf42;
+    text-shadow: 1px 1px 5px #000;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+    margin: 0;
+  }
+  h2 {
+    font-size: 1.5rem;
     text-shadow: 1px 1px 5px #000;  
     margin: 0;
   }
   p {
-    font-size: 1.2rem;  
+    font-size: 1rem;  
     text-shadow: 1px 1px 2px #000;
   }
   a {
     color: #fff;
   }
   #countdown {
-    max-width: 600px;
+    max-width: 400px;
+    max-height:fit-content;
   }
   #countdown ul {
     margin: 5% 0 0 0;
@@ -43,14 +51,5 @@ html {
   }
   #countdown ul li span {
     display: block;
-    font-size: 3rem;
-  }
-
-  footer {
-    text-align: center;
-    padding: 2px;
-    background-color: #001f2f;
-    color: #8ebf42;
-    text-shadow: 1px 1px 2px #c0df6d;
-    font-size:x-small;
+    font-size: 2rem;
   }
