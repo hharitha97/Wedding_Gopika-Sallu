@@ -54,5 +54,6 @@ html {
     font-size: 2rem;
   }
   #link{
-  font-family:Jazz LET, fantasy;
-  }
+  font-size: 1.2rem;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif;
+}
