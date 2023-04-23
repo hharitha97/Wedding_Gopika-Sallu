@@ -16,4 +16,10 @@
       document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );          
     }, 1000);
   
-  })();
+  }
+window.onload = function() {
+      setTimeout(function() {
+        document.body.style.opacity = "0";
+      }, 5000);
+    }
+)();
