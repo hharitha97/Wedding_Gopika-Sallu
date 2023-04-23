@@ -15,4 +15,4 @@
       document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
       document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );          
     }, 1000);    
-)();
+})();
