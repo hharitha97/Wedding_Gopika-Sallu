@@ -14,12 +14,5 @@
       document.getElementById("hours").innerText = Math.floor( (remaining % day) / hour );
       document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
       document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );          
-    }, 1000);
-    
-    window.onload = function() {
-      setTimeout(function() {
-        document.body.style.opacity = "0";
-      }, 5000);
-    }
-    
+    }, 1000);    
 )();
